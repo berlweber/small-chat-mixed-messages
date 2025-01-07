@@ -8,3 +8,8 @@ const lsOfQuestions = ["How are you? ", "How is it going? ", "How are you feelin
 const lsOfAnswers = ["Fine. ", "Not much. ", "Things are getting better rapidly. ", "I am so happy today!!!! ", "It's the same as yesterday. ", "Yeah, you know…. Thats life.",];
 const lsOfClosingGreetings = ["Have a nice day. ", "Good evening. ", "Was great meeting you. ", "I enjoyed talking to you. ", "by by. ",];
 
+
+//Function to choose a random element of an array not depending on a specific array length.
+const getRandomArrayElement = array =>  array[Math.floor(Math.random() * array.length)] ;
+
+//console.log(getRandomArrayElement(lsOfClosingGreetings));
